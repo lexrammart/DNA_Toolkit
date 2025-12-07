@@ -1,0 +1,22 @@
+# --- Archivos del Sistema (Mac) ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Archivos de PyCharm (IDE) ---
+.idea/
+
+# --- Archivos compilados de Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Entornos Virtuales ---
+venv/
+.venv/
+env/
+.env
+
+# --- Jupyter Notebooks (Opcional) ---
+.ipynb_checkpoints
