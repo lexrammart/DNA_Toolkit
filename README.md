@@ -58,7 +58,7 @@ DNA_Toolkit
 - [ ] Graphical interface (front-end).
 
 ## 📄 Licence
-This project is under MIT Licence - see the [LICENCE](LICENCE) for more details.
+This project is under MIT Licence - see the [LICENSE](LICENSE) for more details.
 
 ***
 Made with 💜 by [Alejandro Ramírez](https://github.com/lexrammart)
