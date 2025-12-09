@@ -37,12 +37,14 @@ To run this project on your local machine, follow these steps:
 ## 📁 Project structure
 ``` tree
 DNA_Toolkit
-├─ dna_logic
+├─ dna_logic/
 │   ├─ operations.py
 │   ├─ structures.py
-│   ├─ utils.py
-├─ tests
-│   ├─ test_utils.py
+│   └─ utils.py
+├─ tests/
+│   ├─ test_operations.py
+│   └─ test_utils.py
+├─ LICENSE
 ├─ main.py
 └─ README.md
 ```
@@ -52,7 +54,7 @@ DNA_Toolkit
 - [X] Definition of biological data structures (structures.py).
 - [X] Sequence validation logic (utils.py).
 - [X] Basic unit test (tests/).
-- [ ] Implement nucleotide counting function.
+- [X] Implement nucleotide counting function.
 - [ ] Implement transcription (DNA -> RNA).
 - [ ] Implement reverse complement. 
 - [ ] Graphical interface (front-end).
