@@ -1,5 +1,5 @@
 import unittest
-from dna_logic.operations import count_nucleotides
+from dna_logic.operations import count_nucleotides, dna_transcription
 
 # noinspection SpellCheckingInspection
 class TestCountNucleotides(unittest.TestCase):
@@ -26,6 +26,17 @@ class TestCountNucleotides(unittest.TestCase):
             'A': 3, 'C': 0, 'G': 0, 'T': 0
         }
         self.assertEqual(count_nucleotides(dna), expected)
+
+class testDnaTranscription(unittest.TestCase):
+    def test_dna_transcription(self):
+        # caso 1: standard transcription
+        self.assertEqual(dna_transcription("ACTG"), "ACUG")
+
+        # case 2: transcription with many T's
+        self.assertEqual(dna_transcription("TTTT"), "UUUU")
+
+        #case 3: no T's, remains the same
+        self.assertEqual(dna_transcription("ACGG"), "ACGG")
 
 if __name__ == '__main__':
     unittest.main()
