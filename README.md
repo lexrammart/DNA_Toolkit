@@ -55,7 +55,7 @@ DNA_Toolkit
 - [X] Sequence validation logic (utils.py).
 - [X] Basic unit test (tests/).
 - [X] Implement nucleotide counting function.
-- [ ] Implement transcription (DNA -> RNA).
+- [X] Implement transcription (DNA -> RNA).
 - [ ] Implement reverse complement. 
 - [ ] Graphical interface (front-end).
 
