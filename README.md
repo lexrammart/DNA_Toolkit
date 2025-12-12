@@ -1,7 +1,7 @@
 # 🧬 DNA Toolkit
 
 **DNA Toolkit** is an app written in Python and designed 
-to ease the analisis of biological sequences. This project
+to ease the analysis of biological sequences. This project
 implements fundamental bioinformatics algorithms optimized 
 for the manipulation of DNA and RNA strands.
 
@@ -59,8 +59,8 @@ DNA_Toolkit
 - [ ] Implement reverse complement. 
 - [ ] Graphical interface (front-end).
 
-## 📄 Licence
-This project is under MIT Licence - see the [LICENSE](LICENSE) for more details.
+## 📄 License
+This project is under MIT License - see the [LICENSE](LICENSE) for more details.
 
 ***
 Made with 💜 by [Alejandro Ramírez](https://github.com/lexrammart)
